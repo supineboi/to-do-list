@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    font-family: 'Secular One', sans-serif;
+}
+
+body {
+    background: url(./images/bg.jpg) no-repeat;
+    background-size:100% auto;
+}
+
+h1 {
+    padding: 15px 0;
+    text-align: center;
+    background: linear-gradient(90deg,#341034,white);
+    color: white;
+    text-shadow: 4px 0px black;
+}
+
+h1 > span {
+    font-size: small;
+    text-shadow: none;
+    padding-left: 15px;
+}
+
+.marquee-head {
+    text-align: center;
+}
+
+marquee {
+    width: 50%;
+}
+
+.local-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-container {
+    width: 85%;
+}
+
+form {
+    text-align: center;
+    margin: 25px 0;
+}
+
+input[type=text] {
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 3px 25px;
+    width: 50%;
+}
+
+.list-of-task {
+    list-style: none;
+}
+
+.list-of-task li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px 25px;
+    border: 1px dashed black;
+    box-shadow: 1px 2px 3px 0px black;
+}
+
+.editor {
+    display: flex;
+    justify-content: center;
+}
+
+.local-btn {
+    width: 115px;
+}
